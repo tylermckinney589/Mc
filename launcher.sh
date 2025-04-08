@@ -74,7 +74,7 @@ mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
 
 cd drmatoi_minecrafthost
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/1620/downloads/paper-1.12.2-1620.jar
 
 chmod +x server.jar
 
@@ -100,7 +100,7 @@ mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
 
 cd drmatoi_minecrafthost
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/1620/downloads/paper-1.12.2-1620.jar
 
 chmod +x server.jar
 
@@ -127,7 +127,7 @@ mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
 
 cd drmatoi_minecrafthost
 
-wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+wget -O server.jar https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/1620/downloads/paper-1.12.2-1620.jar
 
 chmod +x server.jar
 
@@ -146,7 +146,7 @@ chmod +x launcher.sh
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/tylermckinney589/Mc
 cd minecraft
 chmod +x launcher.sh
 ./launcher.sh
